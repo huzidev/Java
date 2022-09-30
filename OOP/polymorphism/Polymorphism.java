@@ -1,15 +1,10 @@
 class Bike {
     String name;
+    String type;
     int model;
     
-    public void printInfo(String name) {
-        System.out.println(name);
-    }
-    public void printInfo(int model) {
-        System.out.println(model);
-    }
-    public void printInfo(String name, int model) {
-        System.out.println(name + " is of year " + model);
+    public void printInfo(String name, int model, String type) {
+        System.out.println(name + " is of year " + model + " and type is " + type);
     }
 }
 
@@ -20,6 +15,7 @@ public class Polymorphism {
 
         bikeA.name = "Unique";
         bikeA.model = 2022;
-        bikeA.printInfo(bikeA.name, bikeA.model);
+        bikeA.type = "Electric Bike";
+        bikeA.printInfo(bikeA.name, bikeA.model, bikeA.type);
     }
 }
