@@ -17,7 +17,7 @@ class Employee {
     }
 }
 
-public class classes {
+public class Classes {
     public static void main(String[] args) {
         System.out.println("Custom classes");
 
