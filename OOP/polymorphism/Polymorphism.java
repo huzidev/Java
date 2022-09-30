@@ -30,5 +30,12 @@ public class Polymorphism {
         petrolBike.type = "Petrol";
         petrolBike.model = 2022;
         petrolBike.avg = 60.5;
+        
+        elecBike.name = "Honda";
+        elecBike.type = "Electric";
+        elecBike.model = 2022;
+        elecBike.avg = 100.5;
+
+        petrolBike.displayInfo(petrolBike.name, petrolBike.type, petrolBike.model, petrolBike.avg)
     }
 }
