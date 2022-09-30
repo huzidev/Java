@@ -10,7 +10,7 @@ class Bike {
     }
     // can't pass parameters with String or int (MULRIPLE) times if using same name for for functions (FUCNTION OVERLOADING) rather pass mupltiple parameters like here String name and String type
     public void displayInfo(String name, String type) {
-        System.out.println(type);
+        System.out.println(name + " " + type);
     }
     public void displayInfo(int model) {
         System.out.println(model);
