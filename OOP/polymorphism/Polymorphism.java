@@ -19,6 +19,7 @@ class Bike {
 
 public class Polymorphism {
     public static void main(String[] args) {
-        
+        Bike Bike = new Bike();
+        Bike elecBike = new Bike();
     }
 }
