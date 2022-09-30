@@ -6,9 +6,9 @@ class Employee {
 
     // void function doesn't return
     public void printDetails() {
-        System.out.println("Employee's id is "+ id);
-        System.out.println("Employee's age is "+ age);
-        System.out.println("Employee's name is "+ name);
+        System.out.println("Employee's name is " + name);
+        System.out.println(name + "'s id is "+ id);
+        System.out.println(name + "'s age is "+ age);
     }
 
     // int can return
@@ -40,6 +40,6 @@ public class classes {
         huzi.printDetails();
         sohaib.printDetails();
         int salary = huzi.getSalary();
-        System.out.println("Employee's salary is "+ salary);
+        System.out.println(huzi.name + "'s salary is " + salary);
     }
 }
