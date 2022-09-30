@@ -8,6 +8,5 @@ class first {
         Scanner s = new Scanner(System.in);
         a = s.nextInt();
         System.out.println(a);
-        // tets
     }
 }
