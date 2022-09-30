@@ -3,10 +3,17 @@ class Employee {
     int age;
     String name;
     Float salary;
+
+    // void function doesn't return
     public void printDetails() {
         System.out.println("Employee's id is "+ id);
         System.out.println("Employee's age is "+ age);
         System.out.println("Employee's name is "+ name);
+    }
+
+    // int can return
+    public int getSalary() {
+
     }
 }
 
