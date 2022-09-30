@@ -2,7 +2,7 @@ class Employee {
     int id;
     int age;
     String name;
-    Float salary;
+    int salary;
 
     // void function doesn't return
     public void printDetails() {
@@ -13,7 +13,7 @@ class Employee {
 
     // int can return
     public int getSalary() {
-
+        return salary;
     }
 }
 
@@ -29,13 +29,17 @@ public class classes {
         huzi.id = 1;
         huzi.age = 20;
         huzi.name = "Huzi";
-        
-        sohaib.id = 1;
-        sohaib.age = 20;
-        sohaib.name = "Huzi";
+        huzi.salary = 90;
+
+        sohaib.id = 2;
+        sohaib.age = 19;
+        sohaib.name = "Sohaib";
+        sohaib.salary = 50;
 
         // Calling functions
         huzi.printDetails();
         sohaib.printDetails();
+        int salary = huzi.getSalary();
+        System.out.println("Employee's salary is "+ salary);
     }
 }
