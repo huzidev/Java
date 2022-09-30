@@ -3,6 +3,7 @@ class Bike {
     String name;
     String type;
     int model;
+    float avg;
 
     // diff fucntions with same name is called (FUCNTION OVERLOADING) using func with same NAME in a single class
     public void displayInfo(String name) {
@@ -15,11 +16,19 @@ class Bike {
     public void displayInfo(int model) {
         System.out.println(model);
     }
+    public void displayInfo(float avg) {
+        System.out.println(model);
+    }
 }
 
 public class Polymorphism {
     public static void main(String[] args) {
-        Bike Bike = new Bike();
+        Bike petrolBike = new Bike();
         Bike elecBike = new Bike();
+
+        petrolBike.name = "Unique";
+        petrolBike.type = "Petrol";
+        petrolBike.model = 2022;
+        petrolBike.avg = 60.5;
     }
 }
