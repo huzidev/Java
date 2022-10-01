@@ -11,10 +11,10 @@ import javax.swing.JButton;
 public class MyFrame extends JFrame {
     MyFrame() {
         ImageIcon image = new ImageIcon("linux.png");
-        ImageIcon image = new ImageIcon("linux.png");
+        ImageIcon imageA = new ImageIcon("linuxx.jpg");
         JButton button = new JButton();
         JLabel text = new JLabel();
-        
+
         // boundary for buttons
         button.setBounds(100, 100, 550, 300);
 
@@ -40,6 +40,10 @@ public class MyFrame extends JFrame {
 
         // to get rid of border on hover
         button.setBorder(BorderFactory.createEtchedBorder());
+
+        // onClick button this component will be shown
+        text.setIcon(imageA);
+        text.setBounds(150, 250, 150, 150);
 
         this.setTitle("HuziDev GUI");
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
