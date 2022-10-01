@@ -12,6 +12,6 @@ public class MyFrame extends JFrame implements ActionListener {
         this.setSize(1080, 720);
         this.setVisible(true);
         this.setResizable(false);
-        this.add(button)
+        this.add(button);
     }
 }
