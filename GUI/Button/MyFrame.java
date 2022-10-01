@@ -1,4 +1,7 @@
 import javax.swing.JFrame;
+
+import java.awt.Font;
+
 import javax.swing.ImageIcon;
 import javax.swing.JButton;
 
@@ -8,7 +11,7 @@ public class MyFrame extends JFrame {
         JButton button = new JButton();
         
         // boundary for buttons
-        button.setBounds(200, 100, 100, 50);
+        button.setBounds(100, 100, 250, 100);
 
         // e -> is called lambda expression
         button.addActionListener(e -> System.out.println("Button Clicked"));
@@ -21,6 +24,9 @@ public class MyFrame extends JFrame {
         button.setIcon(image);
         button.setHorizontalTextPosition(JButton.CENTER);
         button.setVerticalTextPosition(JButton.BOTTOM);
+
+        // font-size for button
+        button.setFont(new Font("Comic Sans", Font.BOLD, 25));
 
         this.setTitle("HuziDev GUI");
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
