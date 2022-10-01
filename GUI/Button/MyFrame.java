@@ -10,6 +10,7 @@ public class MyFrame extends JFrame implements ActionListener {
         button = new JButton();
         // boundary for buttons
         button.setBounds(250, 100, 100, 50);
+        button.addActionListener(this);
 
         this.setTitle("HuziDev GUI");
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
