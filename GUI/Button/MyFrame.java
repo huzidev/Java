@@ -1,9 +1,8 @@
-import javax.swing.JFrame;
-
+import java.awt.event.ActionListener;
 import javax.swing.JFrame;
 import javax.swing.JButton;
 
-public class MyFrame extends JFrame {
+public class MyFrame extends JFrame implements ActionListener {
     MyFrame() {
         JButton button = new JButton();
         button.setBounds(250, 100, 100, 50);
