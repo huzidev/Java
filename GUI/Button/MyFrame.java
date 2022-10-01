@@ -4,7 +4,7 @@ import javax.swing.JFrame;
 import javax.swing.JButton;
 
 public class MyFrame extends JFrame implements ActionListener {
-    // setting button as global
+    // setting button as global so it can be used in actionPerfomed function
     JButton button;
     MyFrame() {
         button = new JButton();
