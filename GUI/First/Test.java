@@ -12,6 +12,8 @@ public class Test {
         // settting text for frame
         text.setText("Hello, World!");
         text.setForeground(Color.white);
+        
+        // adding image in frame
         text.setIcon(icon);
 
         // setting frame
@@ -21,6 +23,8 @@ public class Test {
         frame.setVisible(true);
         frame.setResizable(false);
         frame.getContentPane().setBackground(Color.black);
+
+        // for enabling adding text
         frame.add(text);
 
         // setting Icon (Favicon)
