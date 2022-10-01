@@ -18,6 +18,7 @@ public class Test {
         frame.setSize(1080, 720);
         frame.setVisible(true);
 
+        // setting Icon (Favicon)
         ImageIcon icon = new ImageIcon("linux.png");
         frame.setIconImage(icon.getImage());
         frame.getContentPane().setBackground(Color.black);
