@@ -7,11 +7,12 @@ public class Test {
     public static void main(String[] args) {
         JFrame frame =  new JFrame();
         JLabel text = new JLabel();
-        ImageIcon icon = new ImageIcon("linux.png");
+        ImageIcon icon = new ImageIcon("./linux.png");
 
         // settting text for frame
         text.setText("Hello, World!");
         text.setForeground(Color.white);
+        text.setIcon(icon);
 
         // setting frame
         frame.setTitle("HuziDev GUI");
