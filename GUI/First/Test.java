@@ -23,5 +23,6 @@ public class Test {
         ImageIcon icon = new ImageIcon("linux.png");
         frame.setIconImage(icon.getImage());
         frame.getContentPane().setBackground(Color.black);
+        text.setForeground(Color.white);
     }
 }
