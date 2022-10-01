@@ -22,6 +22,8 @@ public class MyFrame extends JFrame {
 
         // button.setIcon so Image will appear inside button
         button.setIcon(image);
+
+        // for centered position of image and text
         button.setHorizontalTextPosition(JButton.CENTER);
         button.setVerticalTextPosition(JButton.BOTTOM);
 
