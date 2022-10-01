@@ -44,6 +44,9 @@ public class MyFrame extends JFrame {
         // onClick button this component will be shown
         text.setIcon(imageA);
         text.setBounds(150, 250, 150, 150);
+        
+        // text will be shown when user clicked on the button
+        text.setVisible(false);
 
         this.setTitle("HuziDev GUI");
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
