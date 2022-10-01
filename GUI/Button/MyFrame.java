@@ -1,4 +1,6 @@
 import javax.swing.JFrame;
+import javax.swing.JLabel;
+
 import java.awt.Color;
 import java.awt.Font;
 
@@ -9,7 +11,9 @@ import javax.swing.JButton;
 public class MyFrame extends JFrame {
     MyFrame() {
         ImageIcon image = new ImageIcon("linux.png");
+        ImageIcon image = new ImageIcon("linux.png");
         JButton button = new JButton();
+        JLabel text = new JLabel();
         
         // boundary for buttons
         button.setBounds(100, 100, 550, 300);
