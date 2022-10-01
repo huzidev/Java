@@ -12,7 +12,7 @@ public class MyFrame extends JFrame {
 
         // e -> is called lambda expression
         button.addActionListener(e -> System.out.println("Button Clicked"));
-        button.setText("Button");
+        button.setText("Hello, World");
 
         // to get rid of unnecessary border after click on button
         button.setFocusable(false);
