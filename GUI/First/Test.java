@@ -22,6 +22,8 @@ public class Test {
         text.setFont(new Font("MV Boli", Font.ITALIC, 50));
         text.setIconTextGap(10); // like margin
         text.setBorder(border);
+        text.setHorizontalAlignment(JLabel.CENTER);
+        text.setVerticalAlignment(JLabel.CENTER);
         
         // adding image in frame
         text.setIcon(icon);
