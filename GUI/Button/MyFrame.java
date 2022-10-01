@@ -1,3 +1,4 @@
+import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.JFrame;
 import javax.swing.JButton;
@@ -14,5 +15,12 @@ public class MyFrame extends JFrame implements ActionListener {
         this.setVisible(true);
         this.setResizable(false);
         this.add(button);
+    }
+
+    // ActionListener for button
+    @Override
+    public void actionPerformed(ActionEvent e) {
+        // TODO Auto-generated method stub
+        
     }
 }
