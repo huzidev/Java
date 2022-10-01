@@ -12,7 +12,7 @@ public class Test {
         ImageIcon icon = new ImageIcon("linux.png");
         JFrame frame =  new JFrame();
         JLabel text = new JLabel();
-        Border border = BorderFactory.createLineBorder(Color.white, 1);
+        Border border = BorderFactory.createLineBorder(Color.white, 3);
 
         // settting text for frame
         text.setText("Hello, World!");
@@ -21,6 +21,7 @@ public class Test {
         text.setVerticalTextPosition(JLabel.TOP);
         text.setFont(new Font("MV Boli", Font.ITALIC, 50));
         text.setIconTextGap(10); // like margin
+        text.setBorder(border);
         
         // adding image in frame
         text.setIcon(icon);
