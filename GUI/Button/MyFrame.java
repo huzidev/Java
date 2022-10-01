@@ -3,7 +3,9 @@ import javax.swing.JLabel;
 
 import java.awt.Color;
 import java.awt.Font;
+import java.awt.event.ActionEvent;
 
+import javax.swing.Action;
 import javax.swing.BorderFactory;
 import javax.swing.ImageIcon;
 import javax.swing.JButton;
@@ -55,5 +57,6 @@ public class MyFrame extends JFrame {
         this.setVisible(true);
         this.setResizable(false);
         this.add(button);
+        this.add(text);
     }
 }
