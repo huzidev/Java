@@ -10,6 +10,7 @@ public class Test {
 
         // settting text for frame
         text.setText("Hello, World!");
+        text.setForeground(Color.white);
 
         // setting frame
         frame.setTitle("HuziDev GUI");
@@ -17,12 +18,11 @@ public class Test {
         frame.setSize(1080, 720);
         frame.setVisible(true);
         frame.setResizable(false);
+        frame.getContentPane().setBackground(Color.black);
         frame.add(text);
 
         // setting Icon (Favicon)
         ImageIcon icon = new ImageIcon("linux.png");
         frame.setIconImage(icon.getImage());
-        frame.getContentPane().setBackground(Color.black);
-        text.setForeground(Color.white);
     }
 }
