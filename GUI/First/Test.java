@@ -17,6 +17,7 @@ public class Test {
         text.setHorizontalTextPosition(JLabel.CENTER);
         text.setVerticalTextPosition(JLabel.TOP);
         text.setFont(new Font("MV Boli", Font.ITALIC, 50));
+        text.setIconTextGap(10); // like margin
         
         // adding image in frame
         text.setIcon(icon);
