@@ -7,6 +7,7 @@ public class Test {
     public static void main(String[] args) {
         JFrame frame =  new JFrame();
         JLabel text = new JLabel();
+        ImageIcon icon = new ImageIcon("linux.png");
 
         // settting text for frame
         text.setText("Hello, World!");
@@ -22,7 +23,6 @@ public class Test {
         frame.add(text);
 
         // setting Icon (Favicon)
-        ImageIcon icon = new ImageIcon("linux.png");
         frame.setIconImage(icon.getImage());
     }
 }
