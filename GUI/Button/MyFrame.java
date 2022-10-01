@@ -19,7 +19,7 @@ public class MyFrame extends JFrame implements ActionListener {
         this.add(button);
     }
 
-    // ActionListener for button and it'll be written automatically
+    // ActionListener for button and @Override public void... will be written automatically
     @Override
     public void actionPerformed(ActionEvent e) {
         // means if action performed is button
