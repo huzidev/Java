@@ -22,6 +22,8 @@ public class MyFrame extends JFrame implements ActionListener {
     // ActionListener for button and it'll be written automatically
     @Override
     public void actionPerformed(ActionEvent e) {
-        
+        if (e.getSource() == button) {
+            
+        }
     }
 }
