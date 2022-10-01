@@ -16,12 +16,18 @@ public class Test {
 
         // settting text for frame
         text.setText("Hello, World!");
+
+        // font-color
         text.setForeground(Color.white);
         text.setHorizontalTextPosition(JLabel.CENTER);
         text.setVerticalTextPosition(JLabel.TOP);
         text.setFont(new Font("MV Boli", Font.ITALIC, 50));
-        text.setIconTextGap(10); // like margin
+        
+        // like margin
+        text.setIconTextGap(10);
         text.setBorder(border);
+
+        // for align items center
         text.setHorizontalAlignment(JLabel.CENTER);
         text.setVerticalAlignment(JLabel.CENTER);
         
