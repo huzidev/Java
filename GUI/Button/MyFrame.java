@@ -11,7 +11,7 @@ public class MyFrame extends JFrame {
         JButton button = new JButton();
         
         // boundary for buttons
-        button.setBounds(100, 100, 250, 100);
+        button.setBounds(100, 100, 550, 300);
 
         // e -> is called lambda expression
         button.addActionListener(e -> System.out.println("Button Clicked"));
@@ -27,6 +27,9 @@ public class MyFrame extends JFrame {
 
         // font-size for button
         button.setFont(new Font("Comic Sans", Font.BOLD, 25));
+
+        // like margin
+        button.setIconTextGap(-5);
 
         this.setTitle("HuziDev GUI");
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
