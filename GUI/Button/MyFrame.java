@@ -1,7 +1,4 @@
 import javax.swing.JFrame;
-
-import java.awt.Color;
-
 import javax.swing.ImageIcon;
 import javax.swing.JButton;
 
@@ -28,6 +25,7 @@ public class MyFrame extends JFrame {
         this.setTitle("HuziDev GUI");
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setSize(1080, 720);
+        this.setLayout(null);
         this.setVisible(true);
         this.setResizable(false);
         this.add(button);
