@@ -22,7 +22,7 @@ public class Test {
         frame.setSize(1080, 720);
         frame.setVisible(true);
         frame.setResizable(false);
-        frame.getContentPane().setBackground(Color.black);
+        frame.getContentPane().setBackground(Color.black); // for RGB color use (new Color(0x000000))
 
         // for enabling adding text
         frame.add(text);
