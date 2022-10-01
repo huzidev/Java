@@ -3,6 +3,8 @@ import java.awt.Font;
 
 import javax.swing.JFrame;
 import javax.swing.JLabel;
+import javax.swing.border.Border;
+import javax.swing.BorderFactory;
 import javax.swing.ImageIcon;
 
 public class Test {
@@ -10,6 +12,7 @@ public class Test {
         ImageIcon icon = new ImageIcon("linux.png");
         JFrame frame =  new JFrame();
         JLabel text = new JLabel();
+        Border border = BorderFactory.createLineBorder(Color.white, 1);
 
         // settting text for frame
         text.setText("Hello, World!");
