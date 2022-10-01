@@ -7,7 +7,7 @@ import javax.swing.border.Border;
 import javax.swing.BorderFactory;
 import javax.swing.ImageIcon;
 
-public class Test {
+public class Main {
     public static void main(String[] args) {
         ImageIcon icon = new ImageIcon("linux.png");
         JFrame frame =  new JFrame();
