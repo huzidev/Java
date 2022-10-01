@@ -32,9 +32,6 @@ public class MyFrame extends JFrame {
         // like margin
         button.setIconTextGap(-5);
 
-        // font-color
-        button.getForeground(Color.white)
-
         this.setTitle("HuziDev GUI");
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setSize(1080, 720);
