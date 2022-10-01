@@ -12,7 +12,6 @@ public class Test {
         // settting text for frame
         text.setText("Hello, World!");
         text.setForeground(Color.white);
-        text.setIcon(icon);
 
         // setting frame
         frame.setTitle("HuziDev GUI");
