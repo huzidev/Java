@@ -8,6 +8,7 @@ public class MyFrame extends JFrame {
         button = new JButton();
         // boundary for buttons
         button.setBounds(250, 100, 100, 50);
+        // e -> is called lambda expression
         button.addActionListener(e -> System.out.println("Button Clicked"));
 
         this.setTitle("HuziDev GUI");
