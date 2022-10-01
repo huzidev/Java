@@ -5,6 +5,7 @@ import javax.swing.JButton;
 public class MyFrame extends JFrame implements ActionListener {
     MyFrame() {
         JButton button = new JButton();
+        // boundary for buttons
         button.setBounds(250, 100, 100, 50);
 
         this.setTitle("HuziDev GUI");
