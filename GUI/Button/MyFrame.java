@@ -4,8 +4,10 @@ import javax.swing.JFrame;
 import javax.swing.JButton;
 
 public class MyFrame extends JFrame implements ActionListener {
+    // setting button as global
+    JButton button;
     MyFrame() {
-        JButton button = new JButton();
+        button = new JButton();
         // boundary for buttons
         button.setBounds(250, 100, 100, 50);
 
@@ -17,10 +19,9 @@ public class MyFrame extends JFrame implements ActionListener {
         this.add(button);
     }
 
-    // ActionListener for button
+    // ActionListener for button and it'll be written automatically
     @Override
     public void actionPerformed(ActionEvent e) {
-        // TODO Auto-generated method stub
         
     }
 }
