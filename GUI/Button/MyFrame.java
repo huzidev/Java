@@ -1,11 +1,11 @@
 import javax.swing.JFrame;
+import javax.swing.ImageIcon;
 import javax.swing.JButton;
 
 public class MyFrame extends JFrame {
-    // setting button as global so it can be used in actionPerfomed function
-    JButton button;
     MyFrame() {
-        button = new JButton();
+        ImageIcon image = new ImageIcon();
+        JButton button = new JButton();
         // boundary for buttons
         button.setBounds(200, 100, 100, 50);
         // e -> is called lambda expression
