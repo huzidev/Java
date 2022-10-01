@@ -1,4 +1,6 @@
 import java.awt.Color;
+import java.awt.Font;
+
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.ImageIcon;
@@ -12,6 +14,9 @@ public class Test {
         // settting text for frame
         text.setText("Hello, World!");
         text.setForeground(Color.white);
+        text.setHorizontalTextPosition(JLabel.CENTER);
+        text.setVerticalTextPosition(JLabel.TOP);
+        text.setFont(new Font("MV Boli", Font.ITALIC, 50));
         
         // adding image in frame
         text.setIcon(icon);
