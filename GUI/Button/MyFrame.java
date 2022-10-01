@@ -1,7 +1,6 @@
 import javax.swing.JFrame;
-
+import java.awt.Color;
 import java.awt.Font;
-
 import javax.swing.ImageIcon;
 import javax.swing.JButton;
 
@@ -32,6 +31,9 @@ public class MyFrame extends JFrame {
 
         // like margin
         button.setIconTextGap(-5);
+
+        // font-color
+        button.getForeground(Color.white)
 
         this.setTitle("HuziDev GUI");
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
