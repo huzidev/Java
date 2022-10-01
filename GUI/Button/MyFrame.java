@@ -10,6 +10,9 @@ public class MyFrame extends JFrame {
         button.setBounds(200, 100, 100, 50);
         // e -> is called lambda expression
         button.addActionListener(e -> System.out.println("Button Clicked"));
+        button.setText("Button");
+        // to get rid of unnecessary border after click on button
+        button.setFocusable(false);
 
         this.setTitle("HuziDev GUI");
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
