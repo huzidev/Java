@@ -17,14 +17,14 @@ public class MyFrame {
 
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(1080, 720);
-        frame.setLayout(new BorderLayout());
+        frame.setLayout(new BorderLayout(5, 5)); // adding margin inside BorderLayout
         frame.setVisible(true);
 
         panel1.setBackground(Color.BLACK);
         panel2.setBackground(Color.GREEN);
         panel3.setBackground(Color.YELLOW);
         panel4.setBackground(Color.BLUE);
-        panel5.setBackground(Color.WHITE);
+        panel5.setBackground(Color.CYAN);
 
         panel1.setPreferredSize(new Dimension(100, 100));
         panel2.setPreferredSize(new Dimension(100, 100));
