@@ -37,5 +37,7 @@ public class MyFrame {
         frame.add(panel3, BorderLayout.NORTH);
         frame.add(panel4, BorderLayout.EAST);
         frame.add(panel5, BorderLayout.SOUTH);
+
+        // adding SUB-PANEL in a panel
     }
 }   
