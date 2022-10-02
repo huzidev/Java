@@ -10,7 +10,7 @@ import javax.swing.BorderFactory;
 import javax.swing.ImageIcon;
 import javax.swing.JButton;
 
-public class MyFrame extends JFrame {
+public class MyFrame extends JFrame implements ActionListener {
     MyFrame() {
         ImageIcon image = new ImageIcon("linux.png");
         ImageIcon imageA = new ImageIcon("linuxx.jpg");
@@ -21,7 +21,7 @@ public class MyFrame extends JFrame {
         button.setBounds(100, 100, 550, 300);
 
         // e -> is called lambda expression
-        button.addActionListener(e -> System.out.println("Button Clicked"));
+        // button.addActionListener(e -> System.out.println("Button Clicked"));
         button.setText("Hello, World");
 
         // to get rid of unnecessary border after click on button
