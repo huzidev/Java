@@ -14,6 +14,13 @@ public class MyFrame {
         JPanel panel3 = new JPanel();
         JPanel panel4 = new JPanel();
         JPanel panel5 = new JPanel();
+        
+        // SUB-PANELS
+        JPanel panel1 = new JPanel();
+        JPanel panel2 = new JPanel();
+        JPanel panel3 = new JPanel();
+        JPanel panel4 = new JPanel();
+        JPanel panel5 = new JPanel();
 
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(1080, 720);
@@ -39,5 +46,11 @@ public class MyFrame {
         frame.add(panel5, BorderLayout.SOUTH);
 
         // adding SUB-PANEL in a panel
+
+        panel6.setBackground(Color.LIGHT_GRAY)
+        panel7.setBackground(Color.LIGHT_GRAY)
+        panel8.setBackground(Color.LIGHT_GRAY)
+        panel9.setBackground(Color.LIGHT_GRAY)
+        panel10.setBackground(Color.LIGHT_GRAY)
     }
 }   
