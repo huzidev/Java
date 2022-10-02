@@ -24,7 +24,7 @@ public class MyFrame {
 
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(1080, 720);
-        frame.setLayout(new BorderLayout(5, 5)); // adding margin inside BorderLayout
+        frame.setLayout(new BorderLayout(10, 10)); // adding margin inside BorderLayout
         frame.setVisible(true);
 
         panel1.setBackground(Color.BLACK);
@@ -45,7 +45,7 @@ public class MyFrame {
         frame.add(panel4, BorderLayout.EAST);
         frame.add(panel5, BorderLayout.SOUTH);
 
-        panel5.add(new BorderLayout());
+        panel5.add(new BorderLayout(5, 5));
 
         // adding SUB-PANEL in a panel
         panel6.setBackground(Color.LIGHT_GRAY);
