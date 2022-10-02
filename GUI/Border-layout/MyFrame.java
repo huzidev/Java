@@ -18,9 +18,9 @@ public class MyFrame {
         frame.setVisible(true);
 
         panel1.setBackground(Color.BLACK);
-        panel2.setBackground(green);
-        panel3.setBackground(blue);
-        panel4.setBackground(yellow);
-        panel5.setBackground(white);
+        panel2.setBackground(Color.GREEN);
+        panel3.setBackground(Color.YELLOW);
+        panel4.setBackground(Color.BLUE);
+        panel5.setBackground(Color.WHITE);
     }
 }
