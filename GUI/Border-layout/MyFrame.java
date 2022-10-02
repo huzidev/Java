@@ -15,5 +15,11 @@ public class MyFrame {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(1080, 720);
         frame.setVisible(true);
+
+        panel1.setBackground(black);
+        panel2.setBackground(green);
+        panel3.setBackground(blue);
+        panel4.setBackground(yellow);
+        panel5.setBackground(white);
     }
 }
