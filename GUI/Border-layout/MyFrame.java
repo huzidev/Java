@@ -1,8 +1,8 @@
 import java.awt.BorderLayout;
+import java.awt.Dimension;
 import java.awt.Color;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
-import javax.swing.border.Border;
 
 public class MyFrame {
     public static void main(String[] args) {
@@ -26,11 +26,11 @@ public class MyFrame {
         panel4.setBackground(Color.BLUE);
         panel5.setBackground(Color.WHITE);
 
-        // panel1.setPreferredSize(new Dimension(100, 100));
-        // panel2.setPreferredSize(new Dimension(100, 100));
-        // panel3.setPreferredSize(new Dimension(100, 100));
-        // panel4.setPreferredSize(new Dimension(100, 100));
-        // panel5.setPreferredSize(new Dimension(100, 100));
+        panel1.setPreferredSize(new Dimension(100, 100));
+        panel2.setPreferredSize(new Dimension(100, 100));
+        panel3.setPreferredSize(new Dimension(100, 100));
+        panel4.setPreferredSize(new Dimension(100, 100));
+        panel5.setPreferredSize(new Dimension(100, 100));
 
         frame.add(panel1, BorderLayout.NORTH);
         frame.add(panel2, BorderLayout.NORTH);
