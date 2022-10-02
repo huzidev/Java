@@ -32,10 +32,10 @@ public class MyFrame {
         panel4.setPreferredSize(new Dimension(100, 100));
         panel5.setPreferredSize(new Dimension(100, 100));
 
-        frame.add(panel1, BorderLayout.NORTH);
-        frame.add(panel2, BorderLayout.NORTH);
+        frame.add(panel1, BorderLayout.CENTER);
+        frame.add(panel2, BorderLayout.WEST);
         frame.add(panel3, BorderLayout.NORTH);
-        frame.add(panel4, BorderLayout.NORTH);
-        frame.add(panel5, BorderLayout.NORTH);
+        frame.add(panel4, BorderLayout.EAST);
+        frame.add(panel5, BorderLayout.SOUTH);
     }
 }   
