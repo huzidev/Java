@@ -1,6 +1,7 @@
 import java.awt.Color;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
+import javax.swing.plaf.DimensionUIResource;
 
 public class MyFrame {
     public static void main(String[] args) {
@@ -15,6 +16,7 @@ public class MyFrame {
 
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(1080, 720);
+        frame.setLayout(new Borderlayout());
         frame.setVisible(true);
 
         panel1.setBackground(Color.BLACK);
@@ -22,5 +24,7 @@ public class MyFrame {
         panel3.setBackground(Color.YELLOW);
         panel4.setBackground(Color.BLUE);
         panel5.setBackground(Color.WHITE);
+
+        panel1.setPreferredSize(new Dimension(100, 100));
     }
-}
+}   
