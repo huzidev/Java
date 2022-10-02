@@ -59,4 +59,11 @@ public class MyFrame extends JFrame implements ActionListener {
         this.add(button);
         this.add(text);
     }
+
+    @Override
+    public void actionPerfomed (ActionEvent e) {
+        if (e.getSource() == button) {
+            
+        }
+    }
 }
