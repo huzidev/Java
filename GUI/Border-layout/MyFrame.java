@@ -45,11 +45,15 @@ public class MyFrame {
         frame.add(panel4, BorderLayout.EAST);
         frame.add(panel5, BorderLayout.SOUTH);
 
+        panel5.add(new BorderLayout());
+
         // adding SUB-PANEL in a panel
         panel6.setBackground(Color.LIGHT_GRAY);
         panel7.setBackground(Color.MAGENTA);
         panel8.setBackground(Color.ORANGE);
         panel9.setBackground(Color.GREEN);
         panel10.setBackground(Color.darkGray);
+
+
     }
 }   
