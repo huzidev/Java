@@ -46,7 +46,7 @@ public class MyFrame {
         frame.add(panel5, BorderLayout.SOUTH);
 
         // prepearing panel5 for SUB-PANELS
-        panel5.setLayout(new BorderLayout(5, 5));
+        panel1.setLayout(new BorderLayout(25, 25));
 
         // adding SUB-PANEL in a panel
         panel6.setBackground(Color.LIGHT_GRAY);
@@ -61,5 +61,11 @@ public class MyFrame {
         panel9.setPreferredSize(new Dimension(50, 50));
         panel10.setPreferredSize(new Dimension(50, 50));
 
+
+        panel1.add(panel6, BorderLayout.CENTER);
+        panel1.add(panel7, BorderLayout.NORTH);
+        panel1.add(panel8, BorderLayout.WEST);
+        panel1.add(panel9, BorderLayout.SOUTH);
+        panel1.add(panel10, BorderLayout.EAST);
     }
 }   
