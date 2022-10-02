@@ -1,3 +1,4 @@
+import java.awt.Color;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 
@@ -16,7 +17,7 @@ public class MyFrame {
         frame.setSize(1080, 720);
         frame.setVisible(true);
 
-        panel1.setBackground(black);
+        panel1.setBackground(Color.BLACK);
         panel2.setBackground(green);
         panel3.setBackground(blue);
         panel4.setBackground(yellow);
