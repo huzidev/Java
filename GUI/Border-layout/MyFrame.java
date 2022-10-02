@@ -55,6 +55,11 @@ public class MyFrame {
         panel9.setBackground(Color.GREEN);
         panel10.setBackground(Color.darkGray);
 
+        panel6.setPreferredSize(new Dimension(50, 50));
+        panel7.setPreferredSize(new Dimension(50, 50));
+        panel8.setPreferredSize(new Dimension(50, 50));
+        panel9.setPreferredSize(new Dimension(50, 50));
+        panel10.setPreferredSize(new Dimension(50, 50));
 
     }
 }   
