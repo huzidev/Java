@@ -11,11 +11,13 @@ import javax.swing.ImageIcon;
 import javax.swing.JButton;
 
 public class MyFrame extends JFrame implements ActionListener {
+    JButton button;
+    JLabel text;
     MyFrame() {
         ImageIcon image = new ImageIcon("linux.png");
         ImageIcon imageA = new ImageIcon("linuxx.jpg");
-        JButton button = new JButton();
-        JLabel text = new JLabel();
+        button = new JButton();
+        text = new JLabel();
 
         // boundary for buttons
         button.setBounds(100, 100, 550, 300);
