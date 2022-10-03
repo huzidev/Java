@@ -16,7 +16,7 @@ public class Main {
         // Warning message
         // JOptionPane.showMessageDialog(null, "Are you sure?!", "Simple Message", JOptionPane.WARNING_MESSAGE);
         
-        // 
-        JOptionPane.showMessageDialog(null, "Hello, World!", "Simple Message", JOptionPane.PLAIN_MESSAGE);
+        // Error message
+        JOptionPane.showMessageDialog(null, "Yours computer have a virus", "Virus", JOptionPane.ERROR_MESSAGE);
     }
 }
