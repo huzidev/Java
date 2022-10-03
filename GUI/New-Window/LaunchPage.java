@@ -27,6 +27,9 @@ public class LaunchPage implements ActionListener{
         // after clicking on button the frame (window) with new button will be closed
         frame.dispose();
 
+        if (e.getSource() == myButton) {
+            NewWindow myWindow = new NewWindow();
+        }
     }
 
 }
