@@ -11,10 +11,10 @@ public class Main {
         // JOptionPane.showMessageDialog(null, "You are learning basics of Java", "Learning", JOptionPane.INFORMATION_MESSAGE);
         
         // Question message
-        JOptionPane.showMessageDialog(null, "How Are You?", "Question", JOptionPane.QUESTION_MESSAGE);
+        // JOptionPane.showMessageDialog(null, "How Are You?", "Question", JOptionPane.QUESTION_MESSAGE);
         
-        
-        // JOptionPane.showMessageDialog(null, "Hello, World!", "Simple Message", JOptionPane.PLAIN_MESSAGE);
+        // Warning message
+        JOptionPane.showMessageDialog(null, "Hello, World!", "Simple Message", JOptionPane.PLAIN_MESSAGE);
         
         
         // JOptionPane.showMessageDialog(null, "Hello, World!", "Simple Message", JOptionPane.PLAIN_MESSAGE);
