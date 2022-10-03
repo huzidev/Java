@@ -8,5 +8,10 @@ public class LaunchPage {
 
     LaunchPage() {
 
+        frame.setSize(1080, 720);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setLayout(null);
+        frame.setVisible(true);
+
     }
 }
