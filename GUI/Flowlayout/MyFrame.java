@@ -13,7 +13,7 @@ public class MyFrame {
 
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(1080, 720);
-        frame.setLayout(new FlowLayout());
+        frame.setLayout(new FlowLayout(FlowLayout.CENTER, 10, 10)); // margin and padding
         
         // setting panel (Div)
         panel.setPreferredSize(new Dimension(500, 700));
