@@ -3,11 +3,11 @@ import javax.swing.*;
 
 public class NewWindow {
     JFrame frame = new JFrame();
-    JLabel text = new JLabel();
+    JLabel text = new JLabel("Hello, World!");
 
     NewWindow() {
         // x-axis, y-axis, width and height
-        text.setBounds(250, 250, 100, 50);
+        text.setBounds(250, 250, 300, 50);
 
         // null means default font
         text.setFont(new Font(null, Font.PLAIN, 30));
