@@ -11,4 +11,9 @@ public class MyFrame implements ActionListener {
         frame.setLayout(new FlowLayout());
         frame.setVisible(true);
     }
+
+    @Override
+    public void actionPerformed(ActionEvent e) {
+        
+    }
 }
