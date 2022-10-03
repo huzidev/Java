@@ -20,7 +20,7 @@ public class MyFrame implements ActionListener {
         frame.setSize(1080, 720);
         frame.setLayout(new FlowLayout());
 
-        frame.add(button)
+        frame.add(button);
         frame.add(checkBox);
         frame.setVisible(true);
     }
