@@ -15,6 +15,8 @@ public class LaunchPage implements ActionListener{
         frame.setSize(1080, 720);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setLayout(null);
+
+        frame.add(myButton);
         frame.setVisible(true);
 
     }
