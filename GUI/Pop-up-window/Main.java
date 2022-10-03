@@ -16,7 +16,9 @@ public class Main {
         // Warning message
         // JOptionPane.showMessageDialog(null, "Are you sure?!", "Simple Message", JOptionPane.WARNING_MESSAGE);
         
-        // Error message
-        JOptionPane.showMessageDialog(null, "Yours computer have a virus", "Virus", JOptionPane.ERROR_MESSAGE);
+        // Error message and you can use (while loop) with true statement to make it looks like a real virus
+        // while (true) {
+        //     JOptionPane.showMessageDialog(null, "Yours computer have a virus", "Virus", JOptionPane.ERROR_MESSAGE);
+        // }
     }
 }
