@@ -9,12 +9,11 @@ public class MyFrame implements ActionListener {
 
     MyFrame() {
         JFrame frame = new JFrame();
-        checkBox = new JCheckBox();
+        checkBox = new JCheckBox("I'm not a robot");
 
         button = new JButton("Submit");
         button.addActionListener(this);
 
-        checkBox.setText("I'm not a robot");
         checkBox.setFocusable(false);
         checkBox.setFont(new Font(null, Font.PLAIN, 25));        
 
