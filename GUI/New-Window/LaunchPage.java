@@ -4,9 +4,9 @@ import javax.swing.JFrame;
 public class LaunchPage {
 
     JFrame frame = new JFrame();
-    JButton button = new JButton();
+    JButton myButton = new JButton("Open New Window");
 
-   LaunchPage() {
+    LaunchPage() {
 
-   }
+    }
 }
