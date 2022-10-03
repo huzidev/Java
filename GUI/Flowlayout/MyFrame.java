@@ -8,16 +8,16 @@ public class MyFrame {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(1080, 720);
         frame.setVisible(true);
-
-        frame button = new JButton("1");
-        frame button = new JButton("2");
-        frame button = new JButton("3");
-        frame button = new JButton("4");
-        frame button = new JButton("5");
-        frame button = new JButton("6");
-        frame button = new JButton("7");
-        frame button = new JButton("8");
-        frame button = new JButton("9");
-        frame button = new JButton("10");
+        
+        frame.add(new JButton("1"));
+        frame.add(new JButton("2"));
+        frame.add(new JButton("3"));
+        frame.add(new JButton("4"));
+        frame.add(new JButton("5"));
+        frame.add(new JButton("6"));
+        frame.add(new JButton("7"));
+        frame.add(new JButton("8"));
+        frame.add(new JButton("9"));
+        frame.add(new JButton("10"));
     }
 }
