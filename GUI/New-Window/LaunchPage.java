@@ -1,7 +1,7 @@
 import java.awt.event.*;
 import javax.swing.*;
 
-public class LaunchPage implements ActionListener{
+public class LaunchPage implements ActionListener {
 
     JFrame frame = new JFrame();
     JButton myButton = new JButton("Open New Window");
