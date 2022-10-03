@@ -3,10 +3,8 @@ import javax.swing.*;
 import java.awt.*;
 
 public class MyFrame implements ActionListener {
-    
     JButton button;
     JCheckBox checkBox;
-
     MyFrame() {
         JFrame frame = new JFrame();
         checkBox = new JCheckBox("I'm not a robot");
@@ -25,7 +23,6 @@ public class MyFrame implements ActionListener {
         frame.add(checkBox);
         frame.setVisible(true);
     }
-
     @Override
     public void actionPerformed(ActionEvent e) {
         if (e.getSource() == button) {
