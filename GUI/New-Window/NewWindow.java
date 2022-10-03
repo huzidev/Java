@@ -7,7 +7,7 @@ public class NewWindow {
 
     NewWindow() {
 
-        // x-axis, y-axis, widht and height
+        // x-axis, y-axis, width and height
         text.setBounds(250, 250, 100, 50);
 
         // null means defauly font
