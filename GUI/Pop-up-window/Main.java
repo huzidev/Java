@@ -25,6 +25,8 @@ public class Main {
         // Yes will return 0 No will return 1 Cancel will return 2 and Cross will return -1
         // JOptionPane.showConfirmDialog(null, "Do you wanna delete this app", "Confirm message", JOptionPane.YES_NO_CANCEL_OPTION);
 
+
+        JOptionPane.showInputDialog(null, "What is yours name?");
         
         // creating custom dialouge box
         String[] response = {
