@@ -13,6 +13,9 @@ public class MyFrame {
         frame.setSize(1080, 720);
         frame.setVisible(true);
         frame.setLayout(new FlowLayout());
+
+        // setting panel (Div)
+        
         
         frame.add(new JButton("1"));
         frame.add(new JButton("2"));
