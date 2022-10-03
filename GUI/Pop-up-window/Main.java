@@ -26,10 +26,14 @@ public class Main {
         // Yes will return 0 No will return 1 Cancel will return 2 and Cross will return -1
         int answer = JOptionPane.showConfirmDialog(null, "Do you wanna delete this app", "Confirm message", JOptionPane.YES_NO_CANCEL_OPTION);
 
-        if (answer == 1) {
-            System.out.println("Nice choice");
+        if (answer == 0) {
+            System.out.println("Are You Sure?");
+        } else if (answer == 1) {
+            System.out.println("Nice Choice");
+        } else if (answer == 2) {
+            System.out.println("No problem");
         } else {
-            System.out.println("you sure?");
+            System.out.println("Hey! Dude, Relax");
         }
         
 
