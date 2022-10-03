@@ -10,7 +10,7 @@ public class NewWindow {
         // x-axis, y-axis, width and height
         text.setBounds(250, 250, 100, 50);
 
-        // null means defauly font
+        // null means default font
         text.setFont(new Font(null, Font.PLAIN, 30));
 
         frame.setSize(1080, 720);
