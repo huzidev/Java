@@ -56,8 +56,7 @@ public class Main {
         } else if (answer == 2) {
             System.out.println("No problem " + name);
         } else {
-            System.out.println("Hey! Dude, Relax " + name);
+            System.out.println("Hey! " + name + " Relax");
         }
-
     }
 }
