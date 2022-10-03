@@ -8,5 +8,7 @@ public class MyFrame implements ActionListener {
         JFrame frame = new JFrame();
         
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setLayout(new FlowLayout());
+        frame.setVisible(true);
     }
 }
