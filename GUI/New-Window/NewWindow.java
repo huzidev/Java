@@ -23,6 +23,5 @@ public class NewWindow {
             frame.add(text);
             frame.setVisible(true);
         }
-
     }
 }
