@@ -20,5 +20,8 @@ public class Main {
         // while (true) {
         //     JOptionPane.showMessageDialog(null, "Yours computer have a virus", "Virus", JOptionPane.ERROR_MESSAGE);
         // }
+
+
+        // creating custom dialouge box
     }
 }
