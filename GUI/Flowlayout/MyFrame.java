@@ -19,7 +19,7 @@ public class MyFrame {
         // FlowLayout.CENTER will put the child in center
         // FlowLayout.LEADING will put the child in start (extreme left)
         // FlowLayout.TRAILING will put the child in end (extreme right)
-        frame.setLayout(new FlowLayout(FlowLayout.CENTER, 10, 10)); // margin and padding
+        frame.setLayout(new FlowLayout(FlowLayout.CENTER, 10, 10)); // 3rd and 4th are margin
         
         // setting panel (Div)
         panel.setPreferredSize(new Dimension(300, 500));
