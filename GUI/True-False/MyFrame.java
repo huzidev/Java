@@ -21,7 +21,10 @@ public class MyFrame implements ActionListener {
 
         checkBox.setFocusable(false);
         checkBox.setFont(new Font(null, Font.PLAIN, 25));
-        checkIcon.setIcon();   
+
+        // custom check-box icons
+        checkBox.setIcon(fIcon);
+        checkBox.setSelectedIcon(tIcon);
 
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(1080, 720);
