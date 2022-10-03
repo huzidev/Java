@@ -26,6 +26,8 @@ public class MyFrame implements ActionListener {
 
     @Override
     public void actionPerformed(ActionEvent e) {
-        
+        if (condition) {
+            
+        }
     }
 }
