@@ -1,3 +1,5 @@
 public class Main {
-    LaunchPage launchPage = new LaunchPage();
+    public static void main(String[] args) {
+        LaunchPage launchPage = new LaunchPage();
+    }
 }

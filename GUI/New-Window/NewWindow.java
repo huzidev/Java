@@ -1,4 +1,4 @@
-import java.awt.Font;
+import java.awt.*;
 import javax.swing.*;
 
 public class NewWindow {
