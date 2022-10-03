@@ -7,7 +7,7 @@ public class MyFrame implements ActionListener {
     JButton button;
     JCheckBox checkBox;
 
-    public static void main(String[] args) {
+    MyFrame() {
         JFrame frame = new JFrame();
         checkBox = new JCheckBox();
 
