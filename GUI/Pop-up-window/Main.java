@@ -50,7 +50,7 @@ public class Main {
         );
 
         if (answer == 0) {
-            System.out.println("Are You Sure?");
+            System.out.println("Are You Sure? " + name);
         } else if (answer == 1) {
             System.out.println("Nice Choice");
         } else if (answer == 2) {
