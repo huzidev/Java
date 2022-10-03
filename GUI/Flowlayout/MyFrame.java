@@ -6,6 +6,8 @@ import java.awt.FlowLayout;
 import java.awt.Color;
 import java.awt.Dimension;
 
+
+// Flow-layout: when we resize the screen the components will move-down like display: inline-flex
 public class MyFrame {
     public static void main(String[] args) {
         JFrame frame = new JFrame();
