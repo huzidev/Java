@@ -10,6 +10,7 @@ public class MyFrame implements ActionListener {
 
         checkBox.setText("I'm not a robot");
         checkBox.setFocusable(false);
+        checkBox.setFont(new Font(null, Font.PLAIN, 25));        
 
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(1080, 720);
