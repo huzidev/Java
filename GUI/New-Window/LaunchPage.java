@@ -8,6 +8,9 @@ public class LaunchPage {
 
     LaunchPage() {
 
+        myButton.setBounds(100, 200, 200, 50);
+        myButton.setFocusable(false);
+
         frame.setSize(1080, 720);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setLayout(null);
