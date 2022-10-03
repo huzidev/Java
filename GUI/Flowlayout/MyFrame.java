@@ -13,12 +13,12 @@ public class MyFrame {
 
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(1080, 720);
-        frame.setVisible(true);
         frame.setLayout(new FlowLayout());
-
+        
         // setting panel (Div)
         panel.setPreferredSize(new Dimension(500, 700));
         panel.setBackground(Color.BLACK);
+        panel.setLayout(new FlowLayout());
         
         // inseting button inside panel
         panel.add(new JButton("1"));
@@ -31,7 +31,10 @@ public class MyFrame {
         panel.add(new JButton("8"));
         panel.add(new JButton("9"));
         panel.add(new JButton("10"));
-
+        
         frame.add(panel);
+
+        // Put frame.setVisible(true) here because sometimes we'll get error therefore to put visibility true at the very end like we put javascript file at the end of HTML file
+        frame.setVisible(true);
     }
 }
