@@ -1,9 +1,13 @@
 import javax.swing.JButton;
 import javax.swing.JFrame;
+import javax.swing.JPanel;
+
+import java.awt.FlowLayout;
 
 public class MyFrame {
     public static void main(String[] args) {
         JFrame frame = new JFrame();
+        JPanel panel = new JPanel();
 
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(1080, 720);
