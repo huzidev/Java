@@ -4,9 +4,9 @@ import java.awt.*;
 
 public class MyFrame implements ActionListener {
     
-    JFrame frame = new JFrame();
     public static void main(String[] args) {
+        JFrame frame = new JFrame();
         
-        
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
 }
