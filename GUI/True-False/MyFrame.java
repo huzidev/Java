@@ -4,6 +4,8 @@ import java.awt.*;
 
 public class MyFrame implements ActionListener {
     
+    JButton button;
+
     public static void main(String[] args) {
         JFrame frame = new JFrame();
         JCheckBox checkBox = new JCheckBox();
