@@ -13,6 +13,10 @@ public class MyFrame {
 
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(1080, 720);
+        
+        // FlowLayout.CENTER will put the child in center
+        // FlowLayout.LEADING will put the child in start (extreme left)
+        // FlowLayout.TRAILING will put the child in end (extreme right)
         frame.setLayout(new FlowLayout(FlowLayout.CENTER, 10, 10)); // margin and padding
         
         // setting panel (Div)
