@@ -22,6 +22,9 @@ public class Main {
         // }
 
 
+        // will asks Yes No and Cancel options
+        // JOptionPane.showConfirmDialog(null, "Do you wanna delete this app", "Confirm message", JOptionPane.YES_NO_CANCEL_OPTION);
+
         // creating custom dialouge box
     }
 }
