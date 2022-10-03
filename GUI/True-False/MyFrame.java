@@ -7,7 +7,6 @@ public class MyFrame implements ActionListener {
     JCheckBox checkBox;
     ImageIcon fIcon;
     ImageIcon tIcon;
-
     MyFrame() {
         JFrame frame = new JFrame();
 
