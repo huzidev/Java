@@ -7,7 +7,6 @@ public class LaunchPage implements ActionListener {
     JButton myButton = new JButton("Open New Window");
 
     LaunchPage() {
-
         myButton.setBounds(100, 200, 200, 50);
         myButton.setFocusable(false);
         myButton.addActionListener(this);
@@ -18,7 +17,6 @@ public class LaunchPage implements ActionListener {
 
         frame.add(myButton);
         frame.setVisible(true);
-
     }
 
     @Override

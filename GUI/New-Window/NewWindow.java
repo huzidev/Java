@@ -6,7 +6,6 @@ public class NewWindow {
     JLabel text = new JLabel();
 
     NewWindow() {
-
         // x-axis, y-axis, width and height
         text.setBounds(250, 250, 100, 50);
 
