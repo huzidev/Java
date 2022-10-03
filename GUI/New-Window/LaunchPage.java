@@ -24,6 +24,9 @@ public class LaunchPage implements ActionListener{
     @Override
     public void actionPerformed(ActionEvent e) {
         
+        // after clicking on button the frame (window) with new button will be closed
+        frame.dispose();
+
     }
 
 }
