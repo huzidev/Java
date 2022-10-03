@@ -26,6 +26,12 @@ public class Main {
         // Yes will return 0 No will return 1 Cancel will return 2 and Cross will return -1
         // JOptionPane.showConfirmDialog(null, "Do you wanna delete this app", "Confirm message", JOptionPane.YES_NO_CANCEL_OPTION);
 
+        String[] answer = {
+            "Yes, How many times do I've to Say",
+            "Just NOOOOOO",
+            "Don't show me this again you understand"
+        }
+
         // if (answer == 0) {
         //     System.out.println("Are You Sure?");
         // } else if (answer == 1) {
