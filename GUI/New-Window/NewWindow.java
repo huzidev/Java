@@ -8,10 +8,14 @@ public class NewWindow {
         JLabel text = new JLabel();
 
         NewWindow() {
+
+            // x-axis, y-axis, widht and height
+            text.setBounds(250, 250, 100, 50);
+
             frame.setSize(1080, 720);
             frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
             frame.setLayout(null);
-            
+            frame.setVisible(true);
         }
 
     }
