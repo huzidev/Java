@@ -1,9 +1,7 @@
-import javax.swing.JButton;
-import javax.swing.JFrame;
-import javax.swing.event.AncestorEvent;
-import javax.swing.event.ActionListener;
+import java.awt.event.*;
+import javax.swing.*;
 
-public class LaunchPage implements ActionListener {
+public class LaunchPage implements ActionListener{
 
     JFrame frame = new JFrame();
     JButton myButton = new JButton("Open New Window");
@@ -21,5 +19,9 @@ public class LaunchPage implements ActionListener {
 
     }
 
+    @Override
+    public void actionPerformed(ActionEvent e) {
+        
+    }
 
 }
