@@ -20,7 +20,7 @@ public class MyFrame {
         frame.setLayout(new FlowLayout(FlowLayout.CENTER, 10, 10)); // margin and padding
         
         // setting panel (Div)
-        panel.setPreferredSize(new Dimension(500, 700));
+        panel.setPreferredSize(new Dimension(300, 500));
         panel.setBackground(Color.BLACK);
         panel.setLayout(new FlowLayout());
         
