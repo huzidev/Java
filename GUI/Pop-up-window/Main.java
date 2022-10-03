@@ -23,7 +23,15 @@ public class Main {
 
 
         // will asks Yes No and Cancel options
-        // JOptionPane.showConfirmDialog(null, "Do you wanna delete this app", "Confirm message", JOptionPane.YES_NO_CANCEL_OPTION);
+        // Yes will return 0 No will return 1 Cancel will return 2 and Cross will return -1
+        int answer = JOptionPane.showConfirmDialog(null, "Do you wanna delete this app", "Confirm message", JOptionPane.YES_NO_CANCEL_OPTION);
+
+        if (answer == 1) {
+            System.out.println("Nice choice");
+        } else {
+            System.out.println("you sure?");
+        }
+        
 
         // creating custom dialouge box
     }
