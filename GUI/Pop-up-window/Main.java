@@ -31,7 +31,7 @@ public class Main {
             "Just NOOOOOO",
             "Don't show me this again you understand"
         };
-        
+        ImageIcon logo = new ImageIcon("linux.jpg");
 
         // if (answer == 0) {
         //     System.out.println("Are You Sure?");
