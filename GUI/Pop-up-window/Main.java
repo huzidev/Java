@@ -14,9 +14,9 @@ public class Main {
         // JOptionPane.showMessageDialog(null, "How Are You?", "Question", JOptionPane.QUESTION_MESSAGE);
         
         // Warning message
+        // JOptionPane.showMessageDialog(null, "Are you sure?!", "Simple Message", JOptionPane.WARNING_MESSAGE);
+        
+        // 
         JOptionPane.showMessageDialog(null, "Hello, World!", "Simple Message", JOptionPane.PLAIN_MESSAGE);
-        
-        
-        // JOptionPane.showMessageDialog(null, "Hello, World!", "Simple Message", JOptionPane.PLAIN_MESSAGE);
     }
 }
