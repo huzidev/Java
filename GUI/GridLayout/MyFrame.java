@@ -8,7 +8,7 @@ public class MyFrame {
 
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(1080, 720);
-        frame.setLayout(new GridLayout());
+        frame.setLayout(new GridLayout(3, 3, 10, 10)); // 3rd and 4th are magin
 
         frame.setVisible(true);
     }
