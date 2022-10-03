@@ -10,6 +10,8 @@ public class MyFrame implements ActionListener {
         
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setLayout(new FlowLayout());
+
+        frame.add(checkBox);
         frame.setVisible(true);
     }
 
