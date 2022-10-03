@@ -5,12 +5,14 @@ import java.awt.*;
 public class MyFrame implements ActionListener {
     
     JButton button;
+    JCheckBox checkBox;
 
     public static void main(String[] args) {
         JFrame frame = new JFrame();
-        JCheckBox checkBox = new JCheckBox();
+        checkBox = new JCheckBox();
 
         button = new JButton("Submit");
+        button.addActionListener(this);
 
         checkBox.setText("I'm not a robot");
         checkBox.setFocusable(false);
