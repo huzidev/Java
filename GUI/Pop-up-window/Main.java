@@ -26,8 +26,10 @@ public class Main {
         // JOptionPane.showConfirmDialog(null, "Do you wanna delete this app", "Confirm message", JOptionPane.YES_NO_CANCEL_OPTION);
 
 
-        JOptionPane.showInputDialog(null, "What is yours name?");
+        String name = JOptionPane.showInputDialog(null, "What is yours name?");
         
+        System.out.println("Hello " + name);
+
         // creating custom dialouge box
         String[] response = {
             "Yes, How many times do I've to Say",
@@ -38,7 +40,7 @@ public class Main {
 
         int answer = JOptionPane.showOptionDialog(
             null, 
-            "So, What you say?", 
+            "So, What you say? " + name, 
             "Custom message", 
             JOptionPane.YES_NO_CANCEL_OPTION, 
             JOptionPane.INFORMATION_MESSAGE, 
