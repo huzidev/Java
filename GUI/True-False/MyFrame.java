@@ -28,6 +28,7 @@ public class MyFrame implements ActionListener {
     @Override
     public void actionPerformed(ActionEvent e) {
         if (e.getSource() == button) {
+            // checkBox.isSelected() will return ture or false
             System.out.println(checkBox.isSelected());
         }
     }
