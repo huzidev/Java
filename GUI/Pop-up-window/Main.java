@@ -14,7 +14,7 @@ public class Main {
         // JOptionPane.showMessageDialog(null, "How Are You?", "Question", JOptionPane.QUESTION_MESSAGE);
         
         // Warning message
-        // JOptionPane.showMessageDialog(null, "Are you sure?!", "Simple Message", JOptionPane.WARNING_MESSAGE);
+        // JOptionPane.showMessageDialog(null, "Are you sure?!", "Warning Message", JOptionPane.WARNING_MESSAGE);
         
         // Error message and you can use (while loop) with true statement to make it looks like a real virus
         // while (true) {
@@ -26,24 +26,35 @@ public class Main {
         // Yes will return 0 No will return 1 Cancel will return 2 and Cross will return -1
         // JOptionPane.showConfirmDialog(null, "Do you wanna delete this app", "Confirm message", JOptionPane.YES_NO_CANCEL_OPTION);
 
-        String[] answer = {
+        
+        // creating custom dialouge box
+        String[] response = {
             "Yes, How many times do I've to Say",
             "Just NOOOOOO",
             "Don't show me this again you understand"
         };
         ImageIcon logo = new ImageIcon("linux.png");
 
-        // if (answer == 0) {
-        //     System.out.println("Are You Sure?");
-        // } else if (answer == 1) {
-        //     System.out.println("Nice Choice");
-        // } else if (answer == 2) {
-        //     System.out.println("No problem");
-        // } else {
-        //     System.out.println("Hey! Dude, Relax");
-        // }
-        
+        int answer = JOptionPane.showOptionDialog(
+            null, 
+            "So, What you say?", 
+            "Custom message", 
+            JOptionPane.YES_NO_CANCEL_OPTION, 
+            JOptionPane.INFORMATION_MESSAGE, 
+            logo, 
+            response, 
+            0
+        );
 
-        // creating custom dialouge box
+        if (answer == 0) {
+            System.out.println("Are You Sure?");
+        } else if (answer == 1) {
+            System.out.println("Nice Choice");
+        } else if (answer == 2) {
+            System.out.println("No problem");
+        } else {
+            System.out.println("Hey! Dude, Relax");
+        }
+
     }
 }
