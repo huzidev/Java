@@ -1,4 +1,5 @@
-import javax.swing.JLabel;
+import java.awt.event.*;
+import javax.swing.*;
 
 public class NewWindow {
     public static void main(String[] args) {
