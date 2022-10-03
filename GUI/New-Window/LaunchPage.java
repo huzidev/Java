@@ -27,5 +27,4 @@ public class LaunchPage implements ActionListener {
             NewWindow myWindow = new NewWindow();
         }
     }
-
 }
