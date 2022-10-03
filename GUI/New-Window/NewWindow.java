@@ -19,6 +19,8 @@ public class NewWindow {
             frame.setSize(1080, 720);
             frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
             frame.setLayout(null);
+
+            frame.add(text);
             frame.setVisible(true);
         }
 
