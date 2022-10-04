@@ -38,6 +38,13 @@ public class Calculator implements ActionListener {
 
         // setting buttons
         addButton = new JButton("+");
+        subButton = new JButton("+");
+        mulButton = new JButton("+");
+        divButton = new JButton("+");
+        addButton = new JButton("+");
+        addButton = new JButton("+");
+        addButton = new JButton("+");
+        addButton = new JButton("+");
 
         frame.add(textField);
         frame.setVisible(true);
