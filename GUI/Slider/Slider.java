@@ -20,7 +20,7 @@ public class Slider {
         // width and height
         slider.setPreferredSize(new Dimension(500, 300));
 
-        // PaintTicks are small lines below ours slider
+        // PaintTicks are small lines below ours slider just like small Ticks
         slider.setPaintTicks(true);
         slider.setMinorTickSpacing(10);
 
