@@ -11,6 +11,7 @@ public class Calculator implements ActionListener {
     JButton[] funcButtons = new JButton[8];
     JButton addButton, subButton, mulButton, divButton;
     JButton decButton, equButton, delButton, clrButton;
+    JPanel panel;
 
     Calculator() {
         
