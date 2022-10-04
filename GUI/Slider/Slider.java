@@ -7,7 +7,7 @@ public class Slider {
     JFrame frame;
     JPanel panel;
     JLabel text;
-
+    JSlider slider;
 
     Slider() {
 
