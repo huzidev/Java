@@ -14,6 +14,7 @@ public class MyFrame implements ActionListener {
         JMenu edit = new JMenu("Edit");
         JMenu help = new JMenu("Help");
 
+        // sub-items of items of menu-bar
         JMenuItem LoadItem = new JMenuItem("Load");
         JMenuItem saveItem = new JMenuItem("Save");
         JMenuItem Exititem = new JMenuItem("Edit");
