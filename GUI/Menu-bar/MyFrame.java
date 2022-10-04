@@ -11,8 +11,8 @@ public class MyFrame implements ActionListener {
 
         // for items of menu-bar
         JMenu file = new JMenu("File");
-        JMenu file = new JMenu("Edit");
-        JMenu file = new JMenu("Help");
+        JMenu edit = new JMenu("Edit");
+        JMenu help = new JMenu("Help");
 
 
         frame.setSize(1080, 720);
