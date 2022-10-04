@@ -13,6 +13,10 @@ public class MyFrame {
 
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(1080, 720);
+
+        frame.add(pizza);
+        frame.add(burger);
+        frame.add(pasta);
         frame.setVisible(true);
         
     }
