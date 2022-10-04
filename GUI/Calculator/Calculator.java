@@ -158,6 +158,9 @@ public class Calculator implements ActionListener {
 
             // will print the value of result in text-field
             textField.setText(String.valueOf(result));
+            
+            // so user can use result value again
+            num1 = result;
         }
     }
 }
