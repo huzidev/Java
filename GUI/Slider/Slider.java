@@ -5,8 +5,9 @@ import java.awt.*;
 public class Slider {
 
     JFrame frame;
+    JPanel panel;
     JLabel text;
-    
+
 
     Slider() {
 
