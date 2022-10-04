@@ -15,6 +15,10 @@ public class MyFrame implements ActionListener {
         burger = new JRadioButton("burger");
         pasta = new JRadioButton("pasta");
 
+        pizza.addActionListener(this);
+        burger.addActionListener(this);
+        pasta.addActionListener(this);
+
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(1080, 720);
         frame.setLayout(new FlowLayout());
