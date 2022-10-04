@@ -14,6 +14,9 @@ public class Slider implements ChangeListener {
         frame = new JFrame("Java Slider");
         panel = new JPanel();
         text = new JLabel();
+        
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setSize(1080, 720);
 
         // 0 is min, 100 is max and 50 is starting value
         slider = new JSlider(0, 100, 50);
@@ -36,13 +39,9 @@ public class Slider implements ChangeListener {
         // setting slider position
         // slider.setOrientation(SwingConstants.HORIZONTAL);
         slider.setOrientation(SwingConstants.VERTICAL);
-        
 
         // use ChangeListener instead of action listeer for slider
         slider.addChangeListener(this);
-        
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setSize(1080, 720);
 
         panel.add(slider);
         panel.add(text);
