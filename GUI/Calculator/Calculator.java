@@ -10,6 +10,7 @@ public class Calculator implements ActionListener {
     JButton[] numberButtons = new JButton[10];
     JButton[] funcButtons = new JButton[8];
     JButton addButton, subButton, mulButton, divButton;
+    JButton decButton, equButton, delButton, clrButton;
 
     Calculator() {
         
