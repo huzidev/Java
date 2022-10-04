@@ -78,10 +78,11 @@ public class Calculator implements ActionListener {
         panel.setBounds(50, 100, 300, 300);
         panel.setLayout(new GridLayout(4, 4, 10, 10));
 
+        // this must have to be in SEQUENCE
         for(int i = 1; i < 4; i++) {
             panel.add(numberButtons[i]);
         }
-        
+        panel.add(addButton);
 
         frame.add(panel);
         frame.add(delButton);
