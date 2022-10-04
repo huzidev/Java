@@ -17,6 +17,9 @@ public class Slider {
         // 0 is min, 100 is max and 50 is starting value
         slider = new JSlider(0, 100, 50);
 
+        // width and height
+        slider.setPreferredSize(new Dimension(500, 300));
+
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(1080, 720);
 
