@@ -3,6 +3,9 @@ import javax.swing.*;
 import java.awt.*;
 
 public class MyFrame implements ActionListener {
+    JMenuItem LoadItem;
+    JMenuItem saveItem;
+    JMenuItem Exititem;
     MyFrame() {
         JFrame frame = new JFrame();
         frame.setSize(1080, 720);
@@ -18,9 +21,9 @@ public class MyFrame implements ActionListener {
         JMenu help = new JMenu("Help");
 
         // sub-items of items of menu-bar
-        JMenuItem LoadItem = new JMenuItem("Load");
-        JMenuItem saveItem = new JMenuItem("Save");
-        JMenuItem Exititem = new JMenuItem("Edit");
+        LoadItem = new JMenuItem("Load");
+        saveItem = new JMenuItem("Save");
+        Exititem = new JMenuItem("Edit");
 
         LoadItem.addActionListener(this);
         saveItem.addActionListener(this);
@@ -39,6 +42,8 @@ public class MyFrame implements ActionListener {
     }
     @Override
     public void actionPerformed(ActionEvent e) {
-        
+        if (e.getSource() == LoadItem) {
+            System.out.println("");
+        }
     }
 }
