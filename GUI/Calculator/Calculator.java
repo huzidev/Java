@@ -63,7 +63,8 @@ public class Calculator implements ActionListener {
         }
 
         for(int i = 0; i < 10; i++) {
-            
+            // value of i will starts from 0 to 9
+            numberButtons[i] = new JButton(String.valueOf(i));
         }
 
         frame.add(textField);
