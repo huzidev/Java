@@ -20,6 +20,10 @@ public class Slider {
         // width and height
         slider.setPreferredSize(new Dimension(500, 300));
 
+        // PaintTicks are small lines below ours slider
+        slider.setPaintTicks(true);
+        slider.setMinorTickSpacing(10);
+
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(1080, 720);
 
