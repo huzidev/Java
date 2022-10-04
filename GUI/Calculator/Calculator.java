@@ -19,6 +19,9 @@ public class Calculator implements ActionListener {
     // for holding multiply, divide etc
     char operator;
 
+    // font
+    Font myFont = new Font("null", Font.BOLD, 25);
+
     Calculator() {
         frame = new JFrame("Java Calculator");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -30,7 +33,7 @@ public class Calculator implements ActionListener {
         textField.setBounds(50, 25, 300, 50);
         
         // text-field only works when user clicks on button
-        textField.setEditable(false);
+        textField.setFont(myFont);
 
         frame.add(textField);
         frame.setVisible(true);
