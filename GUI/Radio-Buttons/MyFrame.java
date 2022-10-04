@@ -13,6 +13,10 @@ public class MyFrame implements ActionListener {
 
         ButtonGroup group = new ButtonGroup();
 
+        group.add(pizza);
+        group.add(burger);
+        group.add(pasta);
+
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(1080, 720);
         frame.setLayout(new FlowLayout());
