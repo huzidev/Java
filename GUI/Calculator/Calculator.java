@@ -25,6 +25,9 @@ public class Calculator implements ActionListener {
         frame.setSize(420, 550);
         frame.setLayout(null);
 
+        // setting text-field
+        
+
         frame.setVisible(true);
             
     }
