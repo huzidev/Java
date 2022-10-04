@@ -115,6 +115,9 @@ public class Calculator implements ActionListener {
                 // concat means links hene links whatever buttons is pressed to text-field
                 textField.setText(textField.getText().concat(String.valueOf(i)));
             }
-        }   
+        }
+        if (e.getSource() == decButton) {
+            textField.setText(textField.getText().concat("."));
+        }
     }
 }
