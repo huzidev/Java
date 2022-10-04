@@ -20,9 +20,13 @@ public class Slider {
         // width and height
         slider.setPreferredSize(new Dimension(500, 300));
 
-        // PaintTicks are small lines below ours slider just like small Ticks
+        // PaintTicks small/minor ticks/lines after every 5 numbers
         slider.setPaintTicks(true);
-        slider.setMinorTickSpacing(10);
+        slider.setMinorTickSpacing(5);
+        
+        // setting bigger/major track/lines after every 25 numbers
+        slider.setPaintTrack(true);
+        slider.setMajorTickSpacing(25);
 
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(1080, 720);
