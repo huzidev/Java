@@ -28,6 +28,9 @@ public class Slider {
         slider.setPaintTrack(true);
         slider.setMajorTickSpacing(25);
 
+        // to show numbers on slider
+        slider.setPaintLabels(true);
+
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(1080, 720);
 
