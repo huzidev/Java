@@ -70,6 +70,9 @@ public class Calculator implements ActionListener {
             numberButtons[i].setFont(myFont);
         }
 
+        delButton.setBounds(50, 430, 145, 50);
+        clrButton.setBounds(50, 430, 145, 50);
+        
         frame.add(textField);
         frame.setVisible(true);
             
