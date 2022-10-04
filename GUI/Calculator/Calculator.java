@@ -125,5 +125,20 @@ public class Calculator implements ActionListener {
             // after clicking on + the text-field will changes to EMPTY so user can enter new values
             textField.setText("");
         }
+        else if (e.getSource() == subButton) {
+            num1 = Double.parseDouble(textField.getText());
+            operator = '-';
+            textField.setText("");
+        }
+        else if (e.getSource() == mulButton) {
+            num1 = Double.parseDouble(textField.getText());
+            operator = '*';
+            textField.setText("");
+        }
+        else if (e.getSource() == divButton) {
+            num1 = Double.parseDouble(textField.getText());
+            operator = '/';
+            textField.setText("");
+        }
     }
 }
