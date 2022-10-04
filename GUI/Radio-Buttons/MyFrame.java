@@ -7,5 +7,7 @@ public class MyFrame {
 
     MyFrame() {
         JFrame frame = new JFrame();
+
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
 }
