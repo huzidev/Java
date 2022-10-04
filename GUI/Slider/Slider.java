@@ -10,9 +10,12 @@ public class Slider {
     JSlider slider;
 
     Slider() {
-
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(1080, 720);
+
+
+        
+        frame.setVisible(true);
         
     }
 }
