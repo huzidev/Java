@@ -37,7 +37,6 @@ public class MyFrame implements ActionListener {
         frame.add(burger);
         frame.add(pasta);
         frame.setVisible(true);
-
     }
     @Override
     public void actionPerformed(ActionEvent e) {
