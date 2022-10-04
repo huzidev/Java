@@ -57,7 +57,9 @@ public class Calculator implements ActionListener {
         funcButtons[7] = clrButton;
 
         for(int i = 0; i < 8; i++) {
-            funcButtons[i].addActionListener(null);
+            funcButtons[i].addActionListener(this);
+            funcButtons[i].setFocusable(false);
+            funcButtons[i].setFont(myFont);
         }
 
         frame.add(textField);
