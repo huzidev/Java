@@ -6,7 +6,8 @@ public class Calculator implements ActionListener {
 
     JFrame frame;
     JTextField textField;
-    // buttons form numbers
+    // buttons for numbers 0 to 9
+    JButton[] numberButtons = new JButton[10];
 
     Calculator() {
         
