@@ -11,6 +11,8 @@ public class MyFrame implements ActionListener {
         JRadioButton burger = new JRadioButton("burger");
         JRadioButton pasta = new JRadioButton("pasta");
 
+
+        // so user can only select any one radio button
         ButtonGroup group = new ButtonGroup();
 
         group.add(pizza);
