@@ -43,11 +43,11 @@ public class MyFrame implements ActionListener {
     @Override
     public void actionPerformed(ActionEvent e) {
         if (e.getSource() == LoadItem) {
-            System.out.println("Item Saved Successfully!");
+            System.out.println("Item Load Successfully!");
         } else if(e.getSource() == saveItem) {
-            System.out.println("Item Edited Successfully!");
+            System.out.println("Item Saved Successfully!");
         } else {
-            System.out.println("Exit Successfully!");
+            System.out.println("Item Edited Successfully!");
         }
     }
 }
