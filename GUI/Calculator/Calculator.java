@@ -84,19 +84,21 @@ public class Calculator implements ActionListener {
             panel.add(numberButtons[i]);
         }
         panel.add(addButton);
+
         for(int i = 4; i < 7; i++) {
             panel.add(numberButtons[i]);
         }
         panel.add(subButton);
+
         for(int i = 7; i < 10; i++) {
             panel.add(numberButtons[i]);
         }
+        
         panel.add(mulButton);
         panel.add(decButton);
         panel.add(numberButtons[0]);
         panel.add(equButton);
         panel.add(divButton);
-        
         
         frame.add(panel);
         frame.add(delButton);
