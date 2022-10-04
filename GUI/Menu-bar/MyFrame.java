@@ -2,7 +2,7 @@ import java.awt.event.*;
 import javax.swing.*;
 import java.awt.*;
 
-public class MyFrame {
+public class MyFrame implements ActionListener {
     MyFrame() {
         JFrame frame = new JFrame();
 
@@ -11,5 +11,9 @@ public class MyFrame {
         frame.setLayout(new FlowLayout());
         
         frame.setVisible(true);
+    }
+    @Override
+    public void actionPerformed(ActionEvent e) {
+        
     }
 }
