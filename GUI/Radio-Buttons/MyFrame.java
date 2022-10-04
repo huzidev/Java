@@ -5,23 +5,25 @@ import java.awt.*;
 
 public class MyFrame implements ActionListener {
 
+    JRadioButton pizza;
+    JRadioButton burger;
+    JRadioButton pasta;
+
     MyFrame() {
         JFrame frame = new JFrame();
-        JRadioButton pizza = new JRadioButton("pizza");
-        JRadioButton burger = new JRadioButton("burger");
-        JRadioButton pasta = new JRadioButton("pasta");
-
-
-        // so user can only select any one radio button
-        ButtonGroup group = new ButtonGroup();
-
-        group.add(pizza);
-        group.add(burger);
-        group.add(pasta);
+        pizza = new JRadioButton("pizza");
+        burger = new JRadioButton("burger");
+        pasta = new JRadioButton("pasta");
 
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(1080, 720);
         frame.setLayout(new FlowLayout());
+
+        // so user can only select any one radio button
+        ButtonGroup group = new ButtonGroup();
+        group.add(pizza);
+        group.add(burger);
+        group.add(pasta);
 
         frame.add(pizza);
         frame.add(burger);
