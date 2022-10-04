@@ -9,6 +9,7 @@ public class Calculator implements ActionListener {
     // buttons for numbers 0 to 9
     JButton[] numberButtons = new JButton[10];
     JButton[] funcButtons = new JButton[8];
+    JButton addButton, subButton, mulButton, divButton;
 
     Calculator() {
         
