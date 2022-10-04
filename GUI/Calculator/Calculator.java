@@ -13,6 +13,10 @@ public class Calculator implements ActionListener {
     JButton decButton, equButton, delButton, clrButton;
     JPanel panel;
 
+    double num1 = 0, num2 = 0, result = 0;
+    // for holding multiply, divide etc
+    char operator;
+
     Calculator() {
         
     }
