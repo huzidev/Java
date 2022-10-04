@@ -19,6 +19,10 @@ public class MyFrame implements ActionListener {
         burger.addActionListener(this);
         pasta.addActionListener(this);
 
+        pizza.setFocusable(false);
+        burger.setFocusable(false);
+        pasta.setFocusable(false);
+
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(1080, 720);
         frame.setLayout(new FlowLayout());
