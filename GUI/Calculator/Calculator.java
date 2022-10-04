@@ -62,6 +62,10 @@ public class Calculator implements ActionListener {
             funcButtons[i].setFont(myFont);
         }
 
+        for(int i = 0; i < 10; i++) {
+            
+        }
+
         frame.add(textField);
         frame.setVisible(true);
             
