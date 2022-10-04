@@ -110,7 +110,10 @@ public class Calculator implements ActionListener {
     @Override
     public void actionPerformed(ActionEvent e) {
         for(int i = 0; i < 10; i++) {
-            
+            // means if user clicked on any button
+            if (e.getSource() == numberButtons[i]) {
+                
+            }
         }   
     }
 }
