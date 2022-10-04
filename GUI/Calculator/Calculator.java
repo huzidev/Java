@@ -41,10 +41,10 @@ public class Calculator implements ActionListener {
         subButton = new JButton("-");
         mulButton = new JButton("*");
         divButton = new JButton("/");
-        addButton = new JButton("+");
-        addButton = new JButton("+");
-        addButton = new JButton("+");
-        addButton = new JButton("+");
+        decButton = new JButton(".");
+        equButton = new JButton("=");
+        delButton = new JButton("DELETE");
+        clrButton = new JButton("CLEAR");
 
         frame.add(textField);
         frame.setVisible(true);
