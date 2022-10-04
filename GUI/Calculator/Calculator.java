@@ -79,6 +79,7 @@ public class Calculator implements ActionListener {
         panel.setLayout(new GridLayout(4, 4, 10, 10));
 
         // this must have to be in SEQUENCE
+        // starting for loop with 1 because we wanted to print number 1 then 2 then 3 then + sign therefore SEQUENCE must have to be followed
         for(int i = 1; i < 4; i++) {
             panel.add(numberButtons[i]);
         }
@@ -102,7 +103,6 @@ public class Calculator implements ActionListener {
         frame.add(clrButton);
         frame.add(textField);
         frame.setVisible(true);
-            
     }
 
     @Override
