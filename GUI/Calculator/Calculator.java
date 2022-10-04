@@ -28,6 +28,9 @@ public class Calculator implements ActionListener {
         // setting text-field
         textField = new JTextField();
         textField.setBounds(50, 25, 300, 50);
+        
+        // text-field only works when user clicks on button
+        textField.setEditable(false);
 
         frame.add(textField);
         frame.setVisible(true);
