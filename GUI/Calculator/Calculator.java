@@ -112,7 +112,8 @@ public class Calculator implements ActionListener {
         for(int i = 0; i < 10; i++) {
             // means if user clicked on any button
             if (e.getSource() == numberButtons[i]) {
-                
+                // concat means links hene links whatever buttons is pressed to text-field
+                textField.setText(textField.getText().concat(String.valueOf(i)));
             }
         }   
     }
