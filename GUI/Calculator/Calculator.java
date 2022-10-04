@@ -8,6 +8,10 @@ public class Calculator implements ActionListener {
     JTextField textField;
     // buttons form numbers
 
+    Calculator() {
+        
+    }
+
     @Override
     public void actionPerformed(ActionEvent e) {
         
