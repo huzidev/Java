@@ -122,6 +122,8 @@ public class Calculator implements ActionListener {
         else if (e.getSource() == addButton) {
             num1 = Double.parseDouble(textField.getText());
             operator = '+';
+            // after clicking on + the text-field will changes to EMPTY so user can enter new values
+            textField.setText("");
         }
     }
 }
