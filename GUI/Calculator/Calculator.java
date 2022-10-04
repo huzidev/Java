@@ -46,6 +46,16 @@ public class Calculator implements ActionListener {
         delButton = new JButton("DELETE");
         clrButton = new JButton("CLEAR");
 
+        // adding buttons to function buttons
+        funcButtons[0] = addButton;
+        funcButtons[1] = subButton;
+        funcButtons[2] = mulButton;
+        funcButtons[3] = divButton;
+        funcButtons[4] = decButton;
+        funcButtons[5] = equButton;
+        funcButtons[6] = delButton;
+        funcButtons[7] = clrButton;
+
         frame.add(textField);
         frame.setVisible(true);
             
