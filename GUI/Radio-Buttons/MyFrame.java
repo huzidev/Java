@@ -38,6 +38,10 @@ public class MyFrame implements ActionListener {
 
     @Override
     public void actionPerformed(ActionEvent e) {
-        
+        if (e.getSource() == pizza) {
+            System.out.println("You've ordered a pizze");
+        } else if (e.getSource() == burger) {
+            System.out.println("You've ordered a burger");
+        }
     }
 }
