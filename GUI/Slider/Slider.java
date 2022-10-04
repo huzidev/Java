@@ -11,5 +11,8 @@ public class Slider {
 
     Slider() {
 
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setSize(1080, 720);
+        
     }
 }
