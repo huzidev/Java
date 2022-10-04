@@ -13,8 +13,9 @@ public class Slider {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(1080, 720);
 
-
-        
+        panel.add(slider);
+        panel.add(text);
+        frame.add(panel);
         frame.setVisible(true);
         
     }
