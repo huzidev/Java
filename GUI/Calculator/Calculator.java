@@ -2,7 +2,7 @@ import java.awt.event.*;
 import javax.swing.*;
 import java.awt.*;
 
-public class Slider implements ActionListener {
+public class Calculator implements ActionListener {
 
     JFrame frame;
     JTextField textField;
