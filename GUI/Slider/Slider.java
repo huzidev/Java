@@ -1,8 +1,9 @@
 import java.awt.event.*;
 import javax.swing.*;
+import javax.swing.event.*;
 import java.awt.*;
 
-public class Slider {
+public class Slider implements ChangeListener {
 
     JFrame frame;
     JPanel panel;
@@ -31,10 +32,14 @@ public class Slider {
         // to show numbers on slider
         slider.setPaintLabels(true);
         slider.setFont(new Font("MV Boli", Font.ITALIC, 15));
-
+        
         // setting slider position
         // slider.setOrientation(SwingConstants.HORIZONTAL);
         slider.setOrientation(SwingConstants.VERTICAL);
+        
+
+        // use ChangeListener instead of action listeer for slider
+        slider.addChangeListener(this);
         
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(1080, 720);
@@ -43,5 +48,9 @@ public class Slider {
         panel.add(text);
         frame.add(panel);
         frame.setVisible(true);
+    }
+    @Override
+    public void stateChanged(ChangeEvent e) {
+        text.setText("°C" + slider.getValue());
     }
 }
