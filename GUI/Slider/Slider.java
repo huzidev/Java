@@ -11,6 +11,9 @@ public class Slider {
 
     Slider() {
         frame = new JFrame("Java Slider");
+        panel = new JPanel();
+        text = new JLabel();
+        slider = new JSlider();
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(1080, 720);
 
