@@ -30,8 +30,12 @@ public class Slider {
 
         // to show numbers on slider
         slider.setPaintLabels(true);
-        slider.setFont(new Font("MV Boli", Font.BOLD, 25));
+        slider.setFont(new Font("MV Boli", Font.ITALIC, 15));
 
+        // setting slider position
+        // slider.setOrientation(SwingConstants.HORIZONTAL);
+        slider.setOrientation(SwingConstants.VERTICAL);
+        
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(1080, 720);
 
