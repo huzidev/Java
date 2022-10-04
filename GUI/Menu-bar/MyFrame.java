@@ -5,7 +5,7 @@ import java.awt.*;
 public class MyFrame implements ActionListener {
     JMenuItem LoadItem;
     JMenuItem saveItem;
-    JMenuItem Exititem;
+    JMenuItem ExitItem;
     MyFrame() {
         JFrame frame = new JFrame();
         frame.setSize(1080, 720);
@@ -23,15 +23,15 @@ public class MyFrame implements ActionListener {
         // sub-items of items of menu-bar
         LoadItem = new JMenuItem("Load");
         saveItem = new JMenuItem("Save");
-        Exititem = new JMenuItem("Edit");
+        ExitItem = new JMenuItem("Edit");
 
         LoadItem.addActionListener(this);
         saveItem.addActionListener(this);
-        Exititem.addActionListener(this);
+        ExitItem.addActionListener(this);
 
         file.add(LoadItem);
         file.add(saveItem);
-        file.add(Exititem);
+        file.add(ExitItem);
 
         menuBar.add(file);
         menuBar.add(edit);
@@ -44,10 +44,10 @@ public class MyFrame implements ActionListener {
     public void actionPerformed(ActionEvent e) {
         if (e.getSource() == LoadItem) {
             System.out.println("Item Saved Successfully!");
-        } else if(e.getSource() == edit) {
+        } else if(e.getSource() == saveItem) {
             System.out.println("Item Edited Successfully!");
         } else {
-            System.out.println("Item Edited Successfully!");
+            System.out.println("Exit Successfully!");
         }
     }
 }
