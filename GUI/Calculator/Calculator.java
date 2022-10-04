@@ -29,7 +29,7 @@ public class Calculator implements ActionListener {
         textField = new JTextField();
         textField.setBounds(50, 25, 300, 50);
 
-        frame.add(textField)
+        frame.add(textField);
         frame.setVisible(true);
             
     }
