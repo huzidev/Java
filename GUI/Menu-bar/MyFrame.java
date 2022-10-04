@@ -7,7 +7,7 @@ public class MyFrame implements ActionListener {
         JFrame frame = new JFrame();
 
         // for menu-bar
-        JMenuBar menuBar = new JMenu();
+        JMenuBar menuBar = new JMenuBar();
 
         // for items of menu-bar
         JMenu file = new JMenu("File");
@@ -30,6 +30,7 @@ public class MyFrame implements ActionListener {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setLayout(new FlowLayout());
         
+        frame.setJMenuBar(menuBar);
         frame.setVisible(true);
     }
     @Override
