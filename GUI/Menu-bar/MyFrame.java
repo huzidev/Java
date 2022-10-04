@@ -22,6 +22,10 @@ public class MyFrame implements ActionListener {
         JMenuItem saveItem = new JMenuItem("Save");
         JMenuItem Exititem = new JMenuItem("Edit");
 
+        LoadItem.addActionListener(this);
+        saveItem.addActionListener(this);
+        Exititem.addActionListener(this);
+
         file.add(LoadItem);
         file.add(saveItem);
         file.add(Exititem);
