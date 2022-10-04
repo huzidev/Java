@@ -155,6 +155,9 @@ public class Calculator implements ActionListener {
             else if (operator == '/') {
                 result = num1 / num2;
             }
+
+            // will print the value of result in text-field
+            textField.setText(String.valueOf(result));
         }
     }
 }
