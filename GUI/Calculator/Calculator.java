@@ -33,6 +33,7 @@ public class Calculator implements ActionListener {
         textField.setBounds(50, 25, 300, 50);
         
         // text-field only works when user clicks on button
+        textField.setEditable(false);
         textField.setFont(myFont);
 
         frame.add(textField);
