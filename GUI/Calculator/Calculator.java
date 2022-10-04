@@ -20,7 +20,7 @@ public class Calculator implements ActionListener {
     char operator;
 
     Calculator() {
-        
+        frame = new JFrame("Java Calculator");    
     }
 
     @Override
