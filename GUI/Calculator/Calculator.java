@@ -165,9 +165,11 @@ public class Calculator implements ActionListener {
             // so user can use result value again
             num1 = result;
         }
-
-        if (e.getSource() == clrButton) {
+        else if (e.getSource() == clrButton) {
             textField.setText("");
+        }
+        else if (condition) {
+            
         }
     }
 }
