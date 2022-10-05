@@ -14,6 +14,8 @@ public class Calculator implements ActionListener {
     JButton decButton, equButton, delButton, clrButton;
     JPanel panel;
 
+    // num1 starting value of calculator
+    // num2 second value after clicking on function button
     double num1 = 0, num2 = 0, result = 0;
     
     // for holding multiply, divide etc
