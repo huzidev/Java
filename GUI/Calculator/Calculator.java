@@ -175,7 +175,7 @@ public class Calculator implements ActionListener {
             
             // using length - 1 for targeting last number
             for (int i = 0; i < string.length() - 1; i++) {
-                
+                textField.setText(textField.getText()+string.charAt(i));
             }
         }
     }
