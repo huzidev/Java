@@ -168,7 +168,8 @@ public class Calculator implements ActionListener {
         else if (e.getSource() == clrButton) {
             textField.setText("");
         }
-        else if (condition) {
+        // for deleting last number at a time like using backspace
+        else if (e.getSource() == delButton) {
             
         }
     }
