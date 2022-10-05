@@ -167,7 +167,7 @@ public class Calculator implements ActionListener {
         }
 
         if (e.getSource() == clrButton) {
-            
+            textField.setText("");
         }
     }
 }
