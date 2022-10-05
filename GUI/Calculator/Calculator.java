@@ -19,7 +19,7 @@ public class Calculator implements ActionListener {
     // result is sum of both the values
     double num1 = 0, num2 = 0, result = 0;
     
-    // for holding multiply, divide etc
+    // for holding multiply, divide functions etc
     char operator;
 
     // font
