@@ -172,7 +172,6 @@ public class Calculator implements ActionListener {
         else if (e.getSource() == delButton) {
             String string = textField.getText();
             textField.setText("");
-            
             // using length - 1 for targeting last number
             for (int i = 0; i < string.length() - 1; i++) {
                 textField.setText(textField.getText()+string.charAt(i));
